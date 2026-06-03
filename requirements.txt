@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+streamlit
+joblib
+scikit-learn
+pandas
+numpy
+plotly
+requests
+
+# --- Commands ---
+# Start the App:
+# python run.py
+#
+# Stop the App:
+# Press Ctrl + C in the terminal.
+# If it fails to stop, open a new terminal and run:
+# taskkill /F /IM python.exe

@@ -1,0 +1,21 @@
+Based on the AI model's internal decision tree rules, here is exactly how it decides which of the 5 drugs to prescribe, along with an example patient and "situation" for each:
+
+1. Drug Y (The "High Ratio" Drug)
+- The Situation: The patient has a significantly High Sodium-to-Potassium (Na-to-K) ratio in their blood. If this ratio is high, the model *always* prescribes Drug Y, regardless of any other factors.
+- Example Patient: A 45-year-old male with Normal BP and Normal Cholesterol, but an Na-to-K ratio of 25.0.
+
+2. Drug A (The "Young & High BP" Drug)
+- The Situation: The patient has a normal/low Na-to-K ratio, they suffer from High Blood Pressure, and they are relatively Young (typically under 50).
+- Example Patient: A 30-year-old female with High BP, Normal cholesterol, and an Na-to-K ratio of 10.5.
+
+3. Drug B (The "Senior & High BP" Drug)
+- The Situation: Similar to Drug A, the patient has a normal/low Na-to-K ratio and High Blood Pressure, but they are Older (typically over 50).
+- Example Patient: A 65-year-old male with High BP, High cholesterol, and an Na-to-K ratio of 12.0.
+
+4. Drug C (The "Low BP & High Cholesterol" Drug)
+- The Situation: The patient has a normal/low Na-to-K ratio, their Blood Pressure is Low, but their Cholesterol is High. (A somewhat "bad" combination of low BP but high cholesterol).
+- Example Patient: A 40-year-old female with Low BP, High Cholesterol, and an Na-to-K ratio of 9.0.
+
+5. Drug X (The "Normal / Stable" Drug)
+- The Situation: The patient has a normal/low Na-to-K ratio, and their overall vitals are mostly stable. They either have Normal Blood Pressure (regardless of cholesterol) OR they have Low BP but with Normal Cholesterol.
+- Example Patient: A 25-year-old male with Normal BP, Normal Cholesterol, and an Na-to-K ratio of 14.0.
