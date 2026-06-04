@@ -30,6 +30,7 @@ An intelligent machine learning platform for predicting the drug-likeness of mol
 
 # Project Structure
 
+```text
 drug-likeness-predictor/
 │
 ├── app.py
@@ -40,6 +41,9 @@ drug-likeness-predictor/
 ├── requirements.txt
 ├── README.md
 └── assets/
+```
+
+---
 
 # Installation
 
